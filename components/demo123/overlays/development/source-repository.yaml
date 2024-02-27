@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: demo123-repository
+spec:
+  url: https://github.com/tap-myocp/demo123
